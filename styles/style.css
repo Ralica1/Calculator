@@ -1,0 +1,30 @@
+body {
+    text-align: center;
+    font-family: sans-serif;
+    background-color: rgb(80, 80, 80);
+  }
+  h1 {
+    margin-top: 30px;
+  }
+  form {
+    margin: 0 auto;
+  }
+  input[type="text"] {
+    width: 194px;
+    height: 30px;
+    text-align: right;
+    font-size: 24px;
+    margin-bottom: 2px;
+    background-color: transparent;
+    border: 0;
+  }
+  input[type="button"] {
+    width: 43px;
+    height: 40px;
+    font-size: 24px;
+    margin: 2px;
+    border-radius: 50%;
+    border: 0;
+  }
+  
+
