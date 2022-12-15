@@ -40,3 +40,22 @@ input[type="button"] {
     background-color: #a5ff90;
     color: #283041 !important;
 }
+footer{
+    position: fixed;
+    text-align: end;
+    bottom: 0;
+    width: 98%;
+    height: 60px; 
+}
+a{
+    font-size: 30px;
+}
+a:link {
+    text-decoration: none;
+    color: wheat;
+}
+
+a:visited {
+    text-decoration: none;
+    color: wheat;
+}
