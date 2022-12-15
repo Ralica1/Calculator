@@ -1,15 +1,16 @@
 body {
     text-align: center;
     font-family: sans-serif;
-    background-color: rgb(80, 80, 80);
+    background-color: #040d21;
   }
-  h1 {
+h1 {
     margin-top: 30px;
+    color: wheat;
   }
-  form {
+form {
     margin: 0 auto;
   }
-  input[type="text"] {
+input[type="text"] {
     width: 194px;
     height: 30px;
     text-align: right;
@@ -18,13 +19,22 @@ body {
     background-color: transparent;
     border: 0;
   }
-  input[type="button"] {
+input[type="button"] {
     width: 43px;
     height: 40px;
     font-size: 24px;
     margin: 2px;
     border-radius: 50%;
     border: 0;
+    color: wheat;
   }
-  
-
+.clearBtn {
+    background-color: orangered;
+  }
+.number{
+    background-color: #283041;
+}
+.operator{
+    background-color: #a5ff90;
+    color: #283041 !important;
+}
