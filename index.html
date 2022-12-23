@@ -1,41 +1,74 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="./styles/style.css">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./styles/style.css" />
     <script src="./scripts/script.js" defer></script>
-    <link href='http://fonts.googleapis.com/css?family=Roboto:400,100,100italic,300,300italic,400italic,500,500italic,700,700italic,900italic,900' rel='stylesheet' type='text/css'>
+    <link
+      href="http://fonts.googleapis.com/css?family=Roboto:400,100,100italic,300,300italic,400italic,500,500italic,700,700italic,900italic,900"
+      rel="stylesheet"
+      type="text/css"
+    />
     <title>Calculator</title>
-</head>
-<body>
-  <h1>Calculator</h1>
-  <form>
-    <input type="text" id="input" placeholder="0" />
-    <br />
-    <input class="number" type="button" value="1" onclick="addToInput('1')" />
-    <input class="number" type="button" value="2" onclick="addToInput('2')" />
-    <input class="number" type="button" value="3" onclick="addToInput('3')" />
-    <input class="operator" type="button" value="+" onclick="addToInput('+')" />
-    <br />
-    <input class="number" type="button" value="4" onclick="addToInput('4')" />
-    <input class="number" type="button" value="5" onclick="addToInput('5')" />
-    <input class="number" type="button" value="6" onclick="addToInput('6')" />
-    <input class="operator" type="button" value="-" onclick="addToInput('-')" />
-    <br />
-    <input class="number" type="button" value="7" onclick="addToInput('7')" />
-    <input class="number" type="button" value="8" onclick="addToInput('8')" />
-    <input class="number" type="button" value="9" onclick="addToInput('9')" />
-    <input class="operator" type="button" value="*" onclick="addToInput('*')" />
-    <br />
-    <input class="number" type="button" value="0" onclick="addToInput('0')" />
-    <input class="operator" type="button" value="." onclick="addToInput('.')" />
-    <input class="operator" type="button" value="=" onclick="calculate()" />
-    <input class="operator" type="button" value="/" onclick="addToInput('/')" />
-    <br />
-    <input class="clearBtn" type="button" value="C" onclick="clearInput()" />
-  </form> 
-  <footer><a href="https://github.com/Ralica1" target="_blank">Copyrighted by Ralica1</a></footer>
-</body>
+  </head>
+  <body>
+    <h1>Calculator</h1>
+    <form>
+      <input type="text" id="input" placeholder="0" />
+      <br />
+      <input class="number" type="button" value="1" onclick="addToInput('1')" />
+      <input class="number" type="button" value="2" onclick="addToInput('2')" />
+      <input class="number" type="button" value="3" onclick="addToInput('3')" />
+      <input
+        class="operator"
+        type="button"
+        value="+"
+        onclick="addToInput('+')"
+      />
+      <br />
+      <input class="number" type="button" value="4" onclick="addToInput('4')" />
+      <input class="number" type="button" value="5" onclick="addToInput('5')" />
+      <input class="number" type="button" value="6" onclick="addToInput('6')" />
+      <input
+        class="operator"
+        type="button"
+        value="-"
+        onclick="addToInput('-')"
+      />
+      <br />
+      <input class="number" type="button" value="7" onclick="addToInput('7')" />
+      <input class="number" type="button" value="8" onclick="addToInput('8')" />
+      <input class="number" type="button" value="9" onclick="addToInput('9')" />
+      <input
+        class="operator"
+        type="button"
+        value="*"
+        onclick="addToInput('*')"
+      />
+      <br />
+      <input class="number" type="button" value="0" onclick="addToInput('0')" />
+      <input
+        class="operator"
+        type="button"
+        value="."
+        onclick="addToInput('.')"
+      />
+      <input class="operator" type="button" value="=" onclick="calculate()" />
+      <input
+        class="operator"
+        type="button"
+        value="/"
+        onclick="addToInput('/')"
+      />
+      <br />
+      <input class="clearBtn" type="button" value="C" onclick="clearInput()" />
+    </form>
+    <footer>
+      <a href="https://github.com/Ralica1" target="_blank"
+        >Copyrighted by Ralica1</a
+      >
+    </footer>
+  </body>
 </html>
